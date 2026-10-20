@@ -68,9 +68,9 @@ npm run build
 
 ## GitHub Codespaces
 
-The checked-in `.devcontainer/devcontainer.json` forwards ports `5173` and `8000` privately and opens the frontend when port `5173` is forwarded. Start the backend using the backend setup command above, then start Vite using the frontend setup command above. Vite must listen on `0.0.0.0:5173` for port forwarding; the backend remains bound to `127.0.0.1:8000`.
+The checked-in `.devcontainer/devcontainer.json` forwards ports `5174` and `8000` and opens the frontend when port `5174` is forwarded. Start the backend using the backend setup command above, then start Vite using the frontend setup command above. Vite listens on `0.0.0.0:5174` for port forwarding; the backend remains bound to `127.0.0.1:8000`.
 
-In VS Code, open the **Ports** tab and choose **Open in Browser** for port `5173`. Use the forwarded URL shown there; `http://localhost:5173` on your own computer is not the Codespaces URL. Keep the forwarded ports private. The frontend uses the Vite proxy, so the browser does not need direct access to backend port `8000`.
+In VS Code, open the **Ports** tab and choose **Open in Browser** for port `5174`. Use the forwarded URL shown there; `http://localhost:5174` on your own computer is not the Codespaces URL. The frontend uses the Vite proxy, so the browser does not need direct access to backend port `8000`.
 
 ## API contract
 

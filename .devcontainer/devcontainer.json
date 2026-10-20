@@ -1,16 +1,16 @@
 {
   "name": "Backend Atlas",
-  "forwardPorts": [5173, 8000],
+  "forwardPorts": [5174, 8000],
   "portsAttributes": {
-    "5173": {
+    "5174": {
       "label": "Backend Atlas frontend",
       "onAutoForward": "openBrowser",
-      "visibility": "private"
+      "visibility": "public"
     },
     "8000": {
       "label": "Backend Atlas API",
       "onAutoForward": "silent",
-      "visibility": "private"
+      "visibility": "public"
     }
   }
 }
